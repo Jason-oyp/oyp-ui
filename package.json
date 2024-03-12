@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@oyp/components": "workspace:^",
+    "@oyp/components": "workspace:*",
+    "@oyp/theme-chalk": "workspace:*",
+    "@oyp/utils": "workspace:*",
     "typescript": "^5.3.3",
     "vue": "^3.4.21"
   }

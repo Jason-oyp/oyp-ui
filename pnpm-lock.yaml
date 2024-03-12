@@ -9,8 +9,14 @@ importers:
   .:
     dependencies:
       '@oyp/components':
-        specifier: workspace:^
+        specifier: workspace:*
         version: link:packages/components
+      '@oyp/theme-chalk':
+        specifier: workspace:^
+        version: link:packages/theme-chalk
+      '@oyp/utils':
+        specifier: workspace:^
+        version: link:packages/utils
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
